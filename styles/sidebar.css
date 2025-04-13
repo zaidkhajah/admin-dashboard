@@ -1,0 +1,23 @@
+:root {
+    --sidebar-bg-color: #6A9C89;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    max-height: 100vh;
+    background-color: var(--sidebar-bg-color);
+    color: white;
+    padding: 1vw;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.sidebar > nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
